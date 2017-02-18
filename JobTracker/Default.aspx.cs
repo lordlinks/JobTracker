@@ -19,11 +19,6 @@ namespace JobTracker
 
         }
 
-        protected void Where1(object sender, EventArgs e)
-        {
-
-        }
-
         protected void Method1(object sender, EventArgs e)
         {
 
