@@ -11,7 +11,7 @@
     <div class="row">
         <div class="col-md-3">
             <asp:Label runat="server" AssociatedControlID="bisDD">Company:</asp:Label>
-            <asp:DropDownList ID="bisDD" runat="server" AppendDataBoundItems="true">
+            <asp:DropDownList ID="bisDD" runat="server" AppendDataBoundItems="true" CssClass="form-control">
 
             </asp:DropDownList>
         </div>
@@ -22,8 +22,8 @@
             </div>
         </div>
         <div class="col-md-3">
-            <asp:Label runat="server" AssociatedControlID="methodDD">Contact metod:</asp:Label>
-            <asp:DropDownList ID="methodDD" runat="server" AppendDataBoundItems="true">
+            <asp:Label runat="server" AssociatedControlID="methodDD">Discovery method:</asp:Label>
+            <asp:DropDownList ID="methodDD" runat="server" AppendDataBoundItems="true" CssClass="form-control">
 
             </asp:DropDownList>
         </div>
