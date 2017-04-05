@@ -126,25 +126,11 @@ warning 6035: The relationship 'FK_Application_Discover' has columns that are no
     [Application].[date] AS [date]
     FROM [dbo].[Application] AS [Application]</DefiningQuery>
           </EntitySet>
-          <EntitySet Name="Business" EntityType="Self.Business" store:Type="Tables" store:Schema="dbo">
-            <DefiningQuery>SELECT 
-    [Business].[business_id] AS [business_id], 
-    [Business].[name] AS [name], 
-    [Business].[contact_no] AS [contact_no]
-    FROM [dbo].[Business] AS [Business]</DefiningQuery>
+          <EntitySet Name="Business" EntityType="Self.Business" store:Type="Tables" Schema="dbo">
           </EntitySet>
-          <EntitySet Name="Contact" EntityType="Self.Contact" store:Type="Tables" store:Schema="dbo">
-            <DefiningQuery>SELECT 
-    [Contact].[contact_id] AS [contact_id], 
-    [Contact].[method] AS [method], 
-    [Contact].[find] AS [find]
-    FROM [dbo].[Contact] AS [Contact]</DefiningQuery>
+          <EntitySet Name="Contact" EntityType="Self.Contact" store:Type="Tables" Schema="dbo">
           </EntitySet>
-          <EntitySet Name="Discover" EntityType="Self.Discover" store:Type="Tables" store:Schema="dbo">
-            <DefiningQuery>SELECT 
-    [Discover].[discover_id] AS [discover_id], 
-    [Discover].[discovery] AS [discovery]
-    FROM [dbo].[Discover] AS [Discover]</DefiningQuery>
+          <EntitySet Name="Discover" EntityType="Self.Discover" store:Type="Tables" Schema="dbo">
           </EntitySet>
           <AssociationSet Name="FK_Application_Contact" Association="Self.FK_Application_Contact">
             <End Role="Contact" EntitySet="Contact" />

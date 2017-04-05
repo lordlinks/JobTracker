@@ -40,13 +40,13 @@ namespace JobTracker {
         protected global::System.Web.UI.WebControls.DropDownList methodDD;
         
         /// <summary>
-        /// date control.
+        /// CurDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl date;
+        protected global::System.Web.UI.WebControls.Calendar CurDate;
         
         /// <summary>
         /// existSUB control.
@@ -74,5 +74,32 @@ namespace JobTracker {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl Tel;
+        
+        /// <summary>
+        /// Where control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText Where;
+        
+        /// <summary>
+        /// Method control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText Method;
+        
+        /// <summary>
+        /// btn2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn2;
     }
 }

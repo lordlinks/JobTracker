@@ -32,17 +32,28 @@ namespace JobTracker
             bisDD.DataBind();
         }
 
-        protected void add_new(object sender, EventArgs e)
+        protected void add_new_biz(object sender, EventArgs e)
         {
             JobTrackerEntities db = new JobTrackerEntities();
-            Business objBiz = new Business();
-            objBiz.name = Bname.Value;
-            objBiz.contact_no = Tel.Value;
-            db.Businesses.Add(objBiz);
+            Business objBis = new Business();
+            objBis.name = Bname.Value;
+            objBis.contact_no = Tel.Value;
+            db.Businesses.Add(objBis);
             db.SaveChanges();
+
         }
 
         protected void Method1(object sender, EventArgs e)
+        {
+            JobTrackerEntities db = new JobTrackerEntities();
+            Contact objCon = new Contact();
+            objCon.method = Method.Value;
+            objCon.find = Where.Value;
+            db.Contacts.Add(objCon);
+            db.SaveChanges();
+        }
+
+        protected void Unnamed_Click(object sender, EventArgs e)
         {
 
         }
